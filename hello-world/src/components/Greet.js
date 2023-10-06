@@ -1,5 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-const Greet = () => <h1>Hello Bavly!</h1>;
-
+const Greet = (props) => {
+  return (
+    <>
+      <h1>Hello {props.name}!</h1>
+      {props.children}
+    </>
+  );
+};
 export default Greet;
