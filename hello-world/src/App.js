@@ -7,13 +7,15 @@ import Message from "./components/Message";
 import Counter from "./components/ Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
+import ClassEventBind from "./components/ClassEventBind";
 
 function App() {
   return (
     <div className="App">
       {/* <Counter /> */}
-      <FunctionClick />
-      <ClassClick />
+      {/* <FunctionClick />
+      <ClassClick /> */}
+      <ClassEventBind />
       {/* <Message /> */}
       {/* <Greet name="Bavly">
         <h2>This is children props</h2>
