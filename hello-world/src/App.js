@@ -8,6 +8,7 @@ import Counter from "./components/ Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import ClassEventBind from "./components/ClassEventBind";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Counter /> */}
       {/* <FunctionClick />
       <ClassClick /> */}
-      <ClassEventBind />
+      {/* <ClassEventBind /> */}
+      <ParentComponent />
       {/* <Message /> */}
       {/* <Greet name="Bavly">
         <h2>This is children props</h2>
