@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 const UserGreeting = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
-  return isLoggedIn && <h1>Welcome Bavly</h1>;
+  const ele = <h1>hello</h1>;
+  return isLoggedIn && <h1>Welcome Bavly</h1> && ele;
 
   // return isLoggedIn ? <h1>Welcome Bavly</h1> : <h1>Welcome Guest</h1>;
 

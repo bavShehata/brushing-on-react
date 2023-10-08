@@ -10,6 +10,7 @@ import ClassClick from "./components/ClassClick";
 import ClassEventBind from "./components/ClassEventBind";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       <Hello /> */}
       {/* <Greet name="Dani" superHero="antMan" />
       <Welcome name="Dani" superHero="antMan" /> */}
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+      <NameList />
     </div>
   );
 }
