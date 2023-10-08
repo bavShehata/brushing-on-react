@@ -1,9 +1,12 @@
 import React, { Fragment } from "react";
 
 const Greet = (props) => {
+  const { name, superHero } = props;
   return (
     <>
-      <h1>Hello {props.name}!</h1>
+      <h1>
+        Hello {name} - {superHero}!
+      </h1>
       {props.children}
     </>
   );

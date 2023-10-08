@@ -22,6 +22,8 @@ function App() {
       <Welcome name="Dani" />
       <Welcome name="Mary" />
       <Hello /> */}
+      <Greet name="Dani" superHero="antMan" />
+      <Welcome name="Dani" superHero="antMan" />
     </div>
   );
 }
