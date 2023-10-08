@@ -9,6 +9,7 @@ import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import ClassEventBind from "./components/ClassEventBind";
 import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       {/* <FunctionClick />
       <ClassClick /> */}
       {/* <ClassEventBind /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
       {/* <Message /> */}
       {/* <Greet name="Bavly">
         <h2>This is children props</h2>
@@ -32,6 +33,7 @@ function App() {
       <Hello /> */}
       {/* <Greet name="Dani" superHero="antMan" />
       <Welcome name="Dani" superHero="antMan" /> */}
+      <UserGreeting />
     </div>
   );
 }
