@@ -20,11 +20,13 @@ import LifecycleA from "./components/LifecycleA";
 import PureComp from "./components/PureComp";
 import RegComp from "./components/RegComp";
 import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
 
 function App() {
   return (
     <div className="App">
-      <ParentComp/>
+      <RefsDemo />
+      {/* <ParentComp/> */}
       {/* <LifecycleA /> */}
       {/* <Form /> */}
       {/* <h1 className="error">Error</h1>
