@@ -4,7 +4,7 @@ import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
-import Counter from "./components/ Counter";
+import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import ClassEventBind from "./components/ClassEventBind";
@@ -17,11 +17,15 @@ import "./appStyles.css";
 import styles from "./appStyles.module.css";
 import Form from "./components/Form";
 import LifecycleA from "./components/LifecycleA";
+import PureComp from "./components/PureComp";
+import RegComp from "./components/RegComp";
+import ParentComp from "./components/ParentComp";
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      <ParentComp/>
+      {/* <LifecycleA /> */}
       {/* <Form /> */}
       {/* <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1>
