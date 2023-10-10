@@ -34,13 +34,15 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 import CounterProps from "./components/CounterProps";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/userContext";
+import PostList from "./components/PostList";
 
 function App() {
   return (
     <div className="App">
-      <UserProvider value="Bavly">
+      <PostList />
+      {/* <UserProvider value="Bavly">
         <ComponentC />
-      </UserProvider>
+      </UserProvider> */}
       {/* <CounterProps
         render={(count, incrementCount) => (
           <ClickCounterTwo count={count} incrementCount={incrementCount} />
