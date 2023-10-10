@@ -35,11 +35,13 @@ import CounterProps from "./components/CounterProps";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/userContext";
 import PostList from "./components/PostList";
+import PostForm from "./components/PostForm";
 
 function App() {
   return (
     <div className="App">
-      <PostList />
+      <PostForm />
+      {/* <PostList /> */}
       {/* <UserProvider value="Bavly">
         <ComponentC />
       </UserProvider> */}
